@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562658905751,
+  "timestamp": 1562659783261,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -18,7 +18,9 @@
         "/runtime-es5.741402d1d47331ce975c.js",
         "/styles.3ff695c00d717f2d2a11.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
     },
     {
       "name": "assets",
@@ -37,7 +39,19 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/todos"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
