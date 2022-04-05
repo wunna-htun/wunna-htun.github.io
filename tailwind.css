@@ -1396,6 +1396,11 @@ html, body {
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+.dark .dark\:border-input-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(86 86 102 / var(--tw-border-opacity));
+}
+
 .dark .dark\:bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -1404,6 +1409,11 @@ html, body {
 .dark .dark\:bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-input {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 42 53 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:text-white {
